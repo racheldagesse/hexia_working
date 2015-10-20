@@ -1,0 +1,230 @@
+body {
+    background: url('../img/textured_paper.png');
+}
+
+/*-------- Fonts -------- */
+/* paragraph */
+@font-face {
+    font-family: Gotham;
+    src: url('fonts/gotham-light.otf');
+}
+
+ /*headings */
+@font-face {
+    font-family: Geosans;
+    src: url('fonts/geosans.ttf');
+}
+
+
+.size {
+    width: 40%;
+    float: right;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#confirmpwd {
+    margin-top: -10px;
+}
+#or {
+	text-align: center;
+	color: #001F2D;
+}
+
+
+/* ---------- Navbar ----- */
+.nav-logo {
+    height: 55px;
+    width: 217px;
+    margin-top: 7px;
+}
+.nav {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.nav .navbar-nav > ul > li > a{
+    text-align: center;
+}
+
+#nav-links > li > a {
+    font-size: 18px;
+    margin-top: -10px;
+    font-family: 'Gotham', sans-serif;
+}
+
+@media (max-width: 768px){
+    #nav-links > li > a {
+        margin-top: 10px;
+    }
+}
+
+/* On Hover Navbar Link Color */
+#nav-links a:hover,
+#nav-links a:focus {
+  background-color: #28ccea;
+  color: #fff;
+  border-radius: 5px;
+  /*border-top: 3px solid #25b8d3;*/
+  
+  
+}
+
+
+.shadow {
+	-webkit-box-shadow: 0 6px 6px -6px black;
+	   -moz-box-shadow: 0 6px 6px -6px black;
+	        box-shadow: 0 6px 6px -6px black;
+}
+
+/* ---------- Middle Stuff --------------*/
+
+
+.centered {
+    text-align: center;
+}
+
+
+.featured {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#feat1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    
+
+}
+
+#feat2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#feat3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#feat4 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* --------- Footer ------------ */
+.footer-list {
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    
+    
+}
+
+.footer-list > li > a {
+    color: white;
+    
+}
+
+.each {
+    padding: 5px;
+}
+
+.footer-list > li > a:hover {
+    text-decoration: none;
+    color: #25b8d3;
+    
+}
+
+.footer-list-social {
+    list-style: none;
+    padding: 10px;
+}
+
+.footer-logo {
+    height: 55px;
+    width: 217px;
+    display: inline-block;    
+}
+
+#f1 {
+    text-align: center;
+}
+
+#end {
+    background: #001F2D;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 35px;
+    
+}
+
+.copyright {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    color: #ebebeb;
+    
+}
+
+
+
+@media (max-width: 991px){
+    #f2 {
+        padding: 25px;
+    }
+    
+    #f3 {
+        padding: 10px;
+    }
+    
+    /*equal to and less than 991 px it will be red */
+    /*#copyright {
+        color: red;
+    }*/
+    
+    .size {
+        float: left;
+        width: 100%;
+    }
+}
+
+.box {
+    background: #fff;
+    border-radius: 15px;
+
+}
